@@ -23,6 +23,7 @@ body {
 
 p {
     margin: 0;
+    user-select: none;
 }
 
 .units {
@@ -30,6 +31,11 @@ p {
     padding-top: 1em;
     padding-bottom: 1em;
     text-align: center;
+    user-select: none;
+}
+
+.material-symbols-outlined:hover {
+    cursor: pointer;
 }
 
 span {
