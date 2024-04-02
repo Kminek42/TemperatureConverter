@@ -1,15 +1,16 @@
 body {
-    background-color: #22223B;
+    background: #22223B;
     color: #F2E9E4;
     font-size: 20px;
     font-family: "Roboto Mono", monospace;
+    background-size: cover;
 }
 
 .main {
     width: 14em;
     padding: 3em;
     margin: auto;
-    background-color: #4A4E69;
+    background-color: transparent;
     border-radius: 1em;
 }
 
@@ -33,4 +34,27 @@ p {
 
 span {
     margin: auto;
+}
+
+input {
+    border-radius: 0.5em;
+    background-color: transparent;
+    border: 1px solid #F2E9E4;
+    color: #F2E9E4;
+    text-align: center;
+}
+
+input:hover {
+    border-radius: 0.5em;
+    background-color: transparent;
+    border: 1px solid #F2E9E4;
+}
+
+input:focus {
+    border-radius: 0.5em;
+    background-color: transparent;
+    border: 1px solid #F2E9E4;
+    outline: none;
+    color: #F2E9E4;
+    text-align: center;
 }
