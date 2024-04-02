@@ -1,0 +1,36 @@
+body {
+    background-color: #22223B;
+    color: #F2E9E4;
+    font-size: 20px;
+    font-family: "Roboto Mono", monospace;
+}
+
+.main {
+    width: 14em;
+    padding: 3em;
+    margin: auto;
+    background-color: #4A4E69;
+    border-radius: 1em;
+}
+
+.temperature {
+    background-color: #9A8C98;
+    border-radius: 1em;
+    padding: 1em;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
+
+.units {
+    margin: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+span {
+    margin: auto;
+}
